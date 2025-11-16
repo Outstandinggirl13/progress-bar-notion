@@ -8,7 +8,7 @@
     font-family: 'Jura';
     font-style: normal;
     font-weight: 400;
-    src: url('/assets/fonts/jura-v34-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('assets/fonts/jura-v34-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* ===========================
@@ -81,13 +81,19 @@ ol {
 body {
     font-family: var(--font-base);
     color: white;
-    background-color: var(--black-700);
     font-size: 26px;
+    overflow: hidden;
 }
 
 /* ===========================
    LAYOUT & ELEMENTS
    =========================== */
+
+main {
+    background-color: var(--black-700);
+    border-radius: 16px;
+}
+
 
 .container {
     width: 100%;
