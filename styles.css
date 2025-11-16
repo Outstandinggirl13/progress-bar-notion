@@ -91,17 +91,15 @@ body {
 
 .container {
     width: 100%;
-    display: flex;
-    align-items: center;
+    display: grid;
     padding: 16px;
+    grid-template-columns: auto 1fr auto; 
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "percent box image"
+      "empty-1 wrapper empty-2";
     gap: 8px;
-}
-
-.container__wrappper {
-    content: ' ';
-    width: 100%;
-    height: 50px;
-    background-color: white;
+    align-items: center;
 }
 
 .container__image {
@@ -110,8 +108,61 @@ body {
             drop-shadow(0 0 14px rgba(255, 255, 255, 1));
 }
 
-.stats {
+.container__percent {
+    grid-area: percent;
+}
+
+.container__box {
+    grid-area: box;
+    width: 100%;
+    min-width: 300px;
+    height: 50px;
+    background: #ffffff;
+    background: linear-gradient(120deg,rgba(255, 255, 255, 0.4) 0%, rgba(250, 250, 250, 0.1) 95%);
+    border-radius: 50vh;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+}   
+
+.container__box::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    padding: 1px;                /* thickness of the border */
+    border-radius: inherit;      /* match parent's rounded corners */
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.6) 0%, rgba(250, 250, 250, 0.2) 95%);
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+            mask-composite: subtract;
+    pointer-events: none;        /* so it doesn’t block interactions */
+    z-index: 1;
+  }
+
+.container__progress-bar {
+    width: 96%;
+    margin: 7px;
+    background: linear-gradient(90deg, var(--pink-300) 0%, var(--pink-200) 25%, var(--yellow-300) 50%, var(--green-300) 75%, var(--purple-300) 100%);
+    border-radius: 50vh;
+    height: 36px;
+}
+
+.container__wrapper {
+    grid-area: wrapper;
     display: flex;
-    align-items: center;
-    padding: 0 60px;
+    justify-content: space-between;
+}
+
+.container__image {
+    grid-area: image;
+}
+
+.empty-1 {
+    grid-area: empty-1;
+}
+
+.empty-1 {
+    grid-area: empty-2;
 }
