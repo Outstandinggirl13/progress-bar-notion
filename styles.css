@@ -83,7 +83,6 @@ body {
     color: white;
     font-size: clamp(1.125rem, 0.2361rem + 4.4444vw, 1.625rem);
     overflow: hidden;
-    margin-top: 16px;
 }
 
 /* ===========================
