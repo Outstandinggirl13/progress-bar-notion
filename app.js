@@ -20,7 +20,11 @@ const containerDayNumberElement = document.querySelector(".container__day-number
 
 let caloriesArray = [];
 // Add daily progress
-caloriesArray.push(770); // Day 1
+caloriesArray.push(600); // Day 1
+caloriesArray.push(807); // Day 2
+caloriesArray.push(544); // Day 3
+caloriesArray.push(807); // Day 4
+
 
 let startingWeight = 81.35;
 let goalWeight = 56;
