@@ -26,7 +26,7 @@ caloriesArray.push(544); // Day 3
 caloriesArray.push(807); // Day 4
 
 
-let startingWeight = 81.35;
+let startingWeight = 83.5;
 let goalWeight = 56;
 let totalCalories = caloriesArray.reduce((acc, curr) => acc + curr, 0);
 let goalCalories = Math.round((startingWeight - goalWeight) * 7700);
