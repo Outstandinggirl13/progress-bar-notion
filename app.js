@@ -24,6 +24,11 @@ caloriesArray.push(600); // Day 1
 caloriesArray.push(807); // Day 2
 caloriesArray.push(544); // Day 3
 caloriesArray.push(807); // Day 4
+caloriesArray.push(490); // Day 5
+caloriesArray.push(0); // Day 6
+caloriesArray.push(807); // Day 7
+caloriesArray.push(602); // Day 8
+caloriesArray.push(807); // Day 9
 
 
 let startingWeight = 83.5;
