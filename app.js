@@ -34,6 +34,14 @@ caloriesArray.push(807); // Day 11
 caloriesArray.push(573); // Day 12
 caloriesArray.push(807); // Day 13
 caloriesArray.push(0); // Day 14
+caloriesArray.push(613); // Day 15
+caloriesArray.push(0); // Day 16
+caloriesArray.push(591); // Day 17
+caloriesArray.push(807); // Day 18
+caloriesArray.push(605); // Day 19
+caloriesArray.push(807); // Day 20
+caloriesArray.push(807); // Day 21
+caloriesArray.push(620); // Day 22
 
 
 let startingWeight = 83.5;
