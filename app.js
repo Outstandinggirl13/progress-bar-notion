@@ -48,6 +48,13 @@ caloriesArray.push(808); // Day 25
 caloriesArray.push(592); // Day 26
 caloriesArray.push(808); // Day 27
 caloriesArray.push(808); // Day 28
+caloriesArray.push(636); // Day 29
+caloriesArray.push(0); // Day 28
+caloriesArray.push(539); // Day 28
+caloriesArray.push(999); // Day 28
+caloriesArray.push(571); // Day 28
+caloriesArray.push(808); // Day 28
+caloriesArray.push(813); // Day 28
 
 
 let startingWeight = 83.5;
