@@ -49,12 +49,36 @@ caloriesArray.push(592); // Day 26
 caloriesArray.push(808); // Day 27
 caloriesArray.push(808); // Day 28
 caloriesArray.push(636); // Day 29
-caloriesArray.push(0); // Day 28
-caloriesArray.push(539); // Day 28
-caloriesArray.push(999); // Day 28
-caloriesArray.push(571); // Day 28
-caloriesArray.push(808); // Day 28
-caloriesArray.push(813); // Day 28
+caloriesArray.push(0); // Day 30
+caloriesArray.push(539); // Day 31
+caloriesArray.push(999); // Day 32
+caloriesArray.push(571); // Day 33
+caloriesArray.push(808); // Day 34
+caloriesArray.push(813); // Day 35
+caloriesArray.push(410); // Day 36
+caloriesArray.push(0); // Day 37
+caloriesArray.push(657); // Day 38
+caloriesArray.push(0); // Day 39
+caloriesArray.push(808); // Day 40
+caloriesArray.push(438); // Day 41
+caloriesArray.push(0); // Day 42
+caloriesArray.push(631); // Day 43
+caloriesArray.push(808); // Day 44
+caloriesArray.push(640); // Day 45
+caloriesArray.push(808); // Day 46
+caloriesArray.push(0); // Day 47
+caloriesArray.push(0); // Day 48
+caloriesArray.push(0); // Day 49
+caloriesArray.push(423); // Day 50
+caloriesArray.push(810); // Day 51
+caloriesArray.push(655); // Day 52
+caloriesArray.push(817); // Day 53
+caloriesArray.push(648); // Day 54
+caloriesArray.push(471); // Day 55
+caloriesArray.push(0); // Day 56
+caloriesArray.push(648); // Day 57
+caloriesArray.push(900); // Day 58
+
 
 
 let startingWeight = 83.5;
