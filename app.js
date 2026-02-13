@@ -78,6 +78,29 @@ caloriesArray.push(471); // Day 55
 caloriesArray.push(0); // Day 56
 caloriesArray.push(648); // Day 57
 caloriesArray.push(900); // Day 58
+caloriesArray.push(643); // Day 59
+caloriesArray.push(900); // Day 60
+caloriesArray.push(655); // Day 61
+caloriesArray.push(0); // Day 62
+caloriesArray.push(900); // Day 63
+caloriesArray.push(672); // Day 64
+caloriesArray.push(0); // Day 65
+caloriesArray.push(458); // Day 66
+caloriesArray.push(467); // Day 67
+caloriesArray.push(510); // Day 68
+caloriesArray.push(0); // Day 69
+caloriesArray.push(0); // Day 70
+caloriesArray.push(841); // Day 71
+caloriesArray.push(813); // Day 72
+caloriesArray.push(620); // Day 73
+caloriesArray.push(999); // Day 74
+caloriesArray.push(651); // Day 75
+
+
+
+
+
+
 
 
 
